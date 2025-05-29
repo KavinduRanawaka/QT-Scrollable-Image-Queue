@@ -22,7 +22,6 @@ public:
 
 protected:
     void wheelEvent(QWheelEvent *event) override;
-
 private:
     Ui::MainWindow *ui;
     QWidget *scrollWidget;
